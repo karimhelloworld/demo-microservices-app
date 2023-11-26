@@ -13,7 +13,7 @@
 
     <script>
       // Fetch data from the backend service
-      fetch("http://localhost:3000") // Note: 'backend' is used as the hostname to reach the backend service
+      fetch("http://ec2-54-158-13-20.compute-1.amazonaws.com:3000") // Note: 'backend' is used as the hostname to reach the backend service
         .then((response) => response.text())
         .then((data) => {
           document.getElementById(
